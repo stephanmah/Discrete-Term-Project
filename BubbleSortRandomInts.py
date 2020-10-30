@@ -7,7 +7,7 @@ print(user_number)
 
 my_generator = np.random.default_rng()
 #randnums = np.random.randint(1, 26, user_number)
-randnums1 = my_generator.integers(0,100,size = user_number)
+randnums1 = my_generator.integers(0, 100, size = user_number)
 #listed_randnums = randnums.toList()
 print (randnums1)
 #print(type(randnums))
@@ -33,6 +33,9 @@ def bubbleSort(randnums):
 
 bubbleSort(randnums1)
 
-print("Sorted array is:")
+print("Bubble Sorted array:")
 for i in range(len(randnums1)):
     print("%d" % randnums1[i]),
+
+
+
