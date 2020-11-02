@@ -23,10 +23,11 @@ def print_array(randnums1):
 
 n = 0
 running_time = 0
+start_time = time.time()
 while (n < 1000):
     my_generator = np.random.default_rng()
     randnums1 = my_generator.integers(0, 100, size=user_number)
-    start_time = time.time()
+
     #If you want to see the arrays before and after
     #print("Unsorted Array:")
     #print(randnums1)
